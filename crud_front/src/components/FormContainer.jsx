@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, FormGroup, FormControl } from 'react-bootstrap'
 
-class FormContainer extends React.Component {
+export default class FormContainer extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -38,5 +38,3 @@ class FormContainer extends React.Component {
     )
   }
 }
-
-export default FormContainer
